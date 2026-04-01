@@ -31,7 +31,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-5">
-              <a href="#contato" className="btn-luxury">
+              <a href="https://api.whatsapp.com/send?phone=5511981565753&text=Ol%C3%A1%20%2C%20vi%20seu%20Instagram%20e%20gostaria%20de%20um%20or%C3%A7amento%20!" target="_blank" rel="noopener noreferrer" className="btn-luxury">
                 Agendar Consulta
               </a>
               <a 

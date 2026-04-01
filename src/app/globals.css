@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-:root {
 @theme inline {
   --color-background: oklch(0.98 0.01 45);
   --color-foreground: oklch(0.25 0.02 45);

@@ -15,7 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Lolla | Drenagem & Estética Corporal | Cidade Tiradentes",
+  title: "Lolla Drenagem & Estética Corporal | Conecta Leste SP",
   description: "Especialista em Drenagem e Tratamento de Lipedema em Cidade Tiradentes, SP. Descubra a harmonia do seu corpo com tratamentos personalizados.",
   keywords: ["drenagem linfática", "lipedema", "estética corporal", "facial", "cidade tiradentes", "lolla estética"],
 };

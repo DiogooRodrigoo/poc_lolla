@@ -52,15 +52,15 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col">
                   <span className="font-sans text-[10px] tracking-[0.2em] font-bold uppercase opacity-50">Redes Sociais</span>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="font-serif text-xl hover:text-primary transition-colors cursor-pointer">
-                    @lolla_estetica
+                  <a href="https://www.instagram.com/_studiololla_/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl hover:text-primary transition-colors cursor-pointer">
+                    @_studiololla_
                   </a>
                 </div>
               </div>
             </div>
 
             <a 
-              href="https://wa.me/5500000000000" 
+              href="https://api.whatsapp.com/send?phone=5511981565753&text=Ol%C3%A1%20%2C%20vi%20seu%20Instagram%20e%20gostaria%20de%20um%20or%C3%A7amento%20!" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-4 bg-primary text-white p-2 pr-10 rounded-full group hover:shadow-2xl shadow-primary/20 transition-all duration-500 hover:scale-[1.02]"

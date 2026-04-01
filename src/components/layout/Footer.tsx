@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="flex flex-col gap-6">
               <span className="font-sans text-[10px] tracking-[0.2em] font-black uppercase opacity-60">Contato</span>
               <div className="flex flex-col gap-4">
-                <a href="https://instagram.com" className="flex items-center gap-3 font-serif text-lg hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/_studiololla_/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-serif text-lg hover:text-primary transition-colors">
                   <Instagram className="w-5 h-5 text-primary opacity-60" /> Instagram
                 </a>
                 <a href="#contato" className="flex items-center gap-3 font-serif text-lg hover:text-primary transition-colors">
@@ -53,13 +53,8 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-20 pt-10 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="font-sans text-[9px] tracking-[0.25em] uppercase opacity-50">
-            © 2026 Lolla Estética Corporal. Todos os direitos reservados.
+            © 2026 Lolla Estética Corporal. Desenvolvido por Conecta Leste | Prova de Conceito (POC)
           </p>
-          <div className="flex items-center gap-1.5 opacity-40 hover:opacity-100 transition-opacity">
-            <span className="font-sans text-[9px] tracking-[0.25em] uppercase">Feito com</span>
-            <Heart className="w-3 h-3 text-primary fill-current" />
-            <span className="font-sans text-[9px] tracking-[0.25em] uppercase">em Cidade Tiradentes</span>
-          </div>
         </div>
       </div>
     </footer>

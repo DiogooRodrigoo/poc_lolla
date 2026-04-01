@@ -64,7 +64,7 @@ export default function Navbar() {
           {/* Actions */}
           <div className="flex items-center gap-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/_studiololla_/"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:block transition-transform hover:scale-110"
@@ -72,7 +72,7 @@ export default function Navbar() {
               <Instagram className="w-5 h-5 text-primary" />
             </a>
             
-            <a href="#contato" className="hidden md:flex btn-luxury">
+            <a href="https://api.whatsapp.com/send?phone=5511981565753&text=Ol%C3%A1%20%2C%20vi%20seu%20Instagram%20e%20gostaria%20de%20um%20or%C3%A7amento%20!" target="_blank" rel="noopener noreferrer" className="hidden md:flex btn-luxury">
               Agendar
             </a>
 
@@ -135,12 +135,14 @@ export default function Navbar() {
                   <span className="font-sans text-[10px] tracking-[0.2em] font-bold uppercase opacity-50">
                     Siga no Instagram
                   </span>
-                  <span className="font-serif text-lg">@lolla_estetica</span>
+                  <a href="https://www.instagram.com/_studiololla_/" target="_blank" rel="noopener noreferrer" className="font-serif text-lg">@_studiololla_</a>
                 </div>
               </div>
               
               <a
-                href="#contato"
+                href="https://api.whatsapp.com/send?phone=5511981565753&text=Ol%C3%A1%20%2C%20vi%20seu%20Instagram%20e%20gostaria%20de%20um%20or%C3%A7amento%20!"
+                target="_blank" 
+                rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
                 className="w-full py-5 bg-primary text-white text-center rounded-full font-sans text-xs font-bold tracking-[0.2em] uppercase shadow-lg shadow-primary/20"
               >
