@@ -74,6 +74,7 @@ export default function Hero() {
                 alt="Lolla Estética Corporal - Drenagem"
                 fill
                 priority
+                unoptimized
                 className="object-cover transition-transform duration-1000 hover:scale-105"
               />
               {/* Floating Badge */}
